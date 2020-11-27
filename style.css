@@ -1,0 +1,59 @@
+#container {
+    width: 290px;
+    height: 420px;
+    margin: auto;
+    font-size: 0; 
+    padding: 1px 10px 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(141, 128, 128);
+}
+#display {
+    width: 270px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 5rem;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    padding-right: 10px; 
+    margin-bottom:5px; 
+}
+.containerdiv{
+    display: flex;
+}
+button {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border-style: none;
+    margin: 10px;
+    font-weight: bold;
+}
+#equal {
+    font-size: 25px;
+    height: 120px;
+    width: 50px;
+    border-radius: 50px;
+    border-style: none;
+    margin: 10px;
+    font-weight: bold;
+    color:blue;
+} 
+button:hover {
+    cursor: pointer;
+}
+.operator{
+    color:blue;
+    font-size: 25px;
+}
+#clearall{
+    color:blue;
+    font-size: 25px;
+}
+#clearone{
+    color:blue;
+    font-size: 25px;
+}
+
+
